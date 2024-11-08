@@ -1,0 +1,312 @@
+#x1 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+#x2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#x3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+#x4 {
+  background-color: blueviolet;
+}
+.c1 {
+  background-color: yellow;
+}
+.c2 {
+  color: blueviolet;
+}
+
+/*  create a para with dummy content , apply border color,style & width to bottom section of para. ( use individual property for color,style & width)*/
+.c3 {
+  border: 2px solid red;
+  /* border-width: bottom 3px black; */
+  border-bottom-color: black;
+}
+.c4 {
+  border: 1px solid black;
+  border-bottom-left-radius: 4rem;
+}
+
+.c5 {
+  border: 1px solid black;
+  height: 100px;
+  width: 100px;
+  overflow: hidden;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.c6 {
+  border: 1px solid black;
+  height: 100px;
+  width: 100px;
+  overflow: hidden;
+}
+
+.c7{
+  border: 5px solid black;
+  height: 100px;
+  width: 100px;
+  border-left-color: blue;
+  overflow: hidden;
+  border-left-style: dashed;
+}
+.c8{
+  border: 1px solid black;
+  border-left-width: 20px;
+}
+.c9{
+  /* text-transform: lowercase; */
+  /* text-transform: uppercase; */
+  text-transform: capitalize;
+
+
+}
+.c10{
+  font-weight:bold;
+}
+
+.c11{
+  font-size: 2em;
+}
+.c12{
+  border: 1px solid black;
+  padding: 20px;
+}
+.c13{
+  border: 1px solid black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.c14{
+  border: 1px solid black;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.c15{
+  border: 1px solid black;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-top: 20px;
+}
+.c16{
+  border: 1px solid black;
+  padding-bottom: 60px;
+  padding-left: 10px;
+  padding-top: 20px;
+  padding-right: 40px;
+}
+.c17{
+  word-spacing: 4px;
+  letter-spacing: 3px;
+  line-height: 1.5;
+}
+
+.c18 {
+  max-width: 500px;
+}
+.c19 {
+  max-width: 500px;
+}
+
+.c20{
+  border: solid 2px black;
+  max-height: 500px;
+  
+}
+.c21{
+  border: solid 2px black;
+  min-height: 200px;
+ 
+}
+
+.c22{
+  border: solid 2px black;
+  height: 200px;
+}
+
+.ul{
+ list-style-type: disc;
+}
+.c23{
+  text-transform: capitalize;
+  /* text-transform: lowercase;
+  text-transform: uppercase; */
+
+}
+.c24{border: 3px dashed #FF5733;}
+
+.c25{
+  width: 1000px;
+  margin: auto;
+}
+.c26{
+
+  border: black 2px solid;
+  height: 100px;
+  width: 100px;
+  padding: 40px;
+  overflow: hidden;
+}
+.c27{
+  
+  border: black 2px solid;
+  height: 100px;
+  width: 100px;
+  overflow: hidden;
+}
+
+.c27:hover{
+  transform: scale(1.8);
+}
+
+
+.c28{
+  width:200px;
+   height:200px;
+    border: 2px solid black;
+}
+.c29{
+  text-indent: 40px;
+}
+
+.c30{
+  margin-left: 20%;
+}
+
+.example {
+  color: blue;
+}
+.highlight {
+  background-color: yellow;
+}
+
+
+
+    #uniqueElement {
+      color: green;
+    }
+  
+/* 64 */
+/* styles.css */
+
+.border-blue {
+  border: 2px solid blue;
+  padding: 10px;
+  margin: 5px;
+}
+
+.border-hex {
+  border: 2px solid #FF5733;
+  padding: 10px;
+  margin: 5px;
+}
+
+.border-rgb {
+  border: 2px solid rgb(255, 0, 0);
+  padding: 10px;
+  margin: 5px;
+}
+/* end */
+
+/* 65 */
+/* styles.css */
+
+div {
+  width: 150px;
+  height: 100px;
+  background-color: lightcoral;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  line-height: 80px;
+  color: white;
+  font-weight: bold;
+}
+
+.border-radius-small {
+  border-radius: 5px;
+}
+
+.border-radius-medium {
+  border-radius: 15px;
+}
+
+.border-radius-large {
+  border-radius: 30px;
+}
+
+.border-radius-circle {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+}
+/* end */
+
+.c31{
+  width: 300px;
+  border-collapse: collapse;
+}
+
+.c32{
+
+border: 1px solid black; /* Equivalent to border="1" */
+  border-collapse: separate; /* Ensures cellspacing is visible */
+  border-spacing: 10px;
+}
+
+
+
+.c33 {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.c33 td {
+  padding: 10px; /* Equivalent to cellpadding="10" */
+}
+
+
+
+.custom-highlight {
+  background-color: yellow; /* Customize the highlight color */
+  color: black; /* Customize the text color for contrast */
+}
+
+.c35{
+  /* display: none; */
+  visibility: hidden;
+}
+.c36{
+  height: 100px;
+  width: 100px;
+}
+
+.c36:hover{
+  transform: rotate(100deg) rotate(-50deg);
+}
+
+.lastsec{
+  height: 100px;
+  width: 100px;
+}
+.lastsec:hover{
+  transform:translate(10px, 10px)
+}
+.last{
+  width: 100px; 
+  height: 100px; 
+  transition: transform 0.3s;
+ 
+}
+
+.last:hover{
+ transform:skew(10deg, 10deg);
+
+}
+.last:out{
+  transform:skew(0, 0);
+}
